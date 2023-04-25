@@ -1,0 +1,199 @@
+*{
+    margin: 0px;
+    padding:0px;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+
+
+header{
+    display: flex;
+    justify-content: space-between;
+    float: center;
+    background: black;
+    height: 200px;
+}
+
+
+
+.navbar{
+    width: 1200px;
+    height: 10px;
+    margin: auto;
+}
+
+nav{
+    flex: 1;
+    text-align:center;
+}
+
+
+nav ul{
+    float:center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+nav ul li {
+    list-style: none;
+    display: inline-block;
+    margin: 60px;
+    padding-top: 10px;
+}
+  
+
+nav ul li a{
+    text-decoration: none;
+    color:whitesmoke;
+    font-family: 'Sono', sans-serif;
+    font-weight: bold;
+    font-size: 50px;
+}
+
+
+.responsive:hover{
+    color: red;
+}
+
+
+
+
+.carousel{
+    width:100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+}
+
+.slider{
+    width:800px;
+    height:500px;
+    position: relative;
+}
+
+.slider img{
+    position: relative;
+    width: 100%;
+    height:100%;
+    border-radius: 10px;
+}
+
+
+
+.btn{
+    position:absolute;
+    top:0;
+    left:0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    padding:10px;
+}
+
+.btn button{
+    background-color: none;
+    outline: none;
+    border: none;
+    color: black;
+}
+
+.btn button i{
+    font-size: 70px;
+}
+
+
+.btn button:hover i{
+    color: white
+}
+
+
+
+
+
+
+
+footer{
+    background: black;
+    height: auto;
+    width: 100vw;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    padding-top: 40px;
+    color:whitesmoke;
+}
+
+
+.footer-content{
+    display: flex;
+    align-content: center;
+    justify-content:center;
+    flex-direction: column;
+    text-align: center;
+}
+
+
+.footer-content h3{
+    font-size: 2rem;
+    font-weight: 400;
+    text-transform: capitalize;
+    line-height: 3rem;
+}
+
+
+.footer-content p{
+    max-width: 500px;
+    margin: 10px auto;
+    line-height: 28px;
+    font-size: 14px;
+}
+
+
+.socials{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 1rem 0 3rem 0;
+}
+
+.socials li{
+    margin: 0 10px;
+}
+
+.socials a{
+    text-decoration:none;
+    color: white;
+}
+
+
+.socials a i{
+    font-size: 2rem;
+    transition: color .4s ease;
+}
+
+.socials a:hover i{
+    color: rebeccapurple;
+}
+
+.footer-bottom{
+    background: black;
+    width: 100vw;
+    padding: 20px;
+    text-align: center
+}
+
+.footer-bottom p{
+    font-size: 14px;
+    word-spacing:2px;
+    text-transform: capitalize;
+}
+
+.footer-bottom span{
+    text-transform: uppercase;
+    opacity: .4;
+    font-weight: 200;
+}
